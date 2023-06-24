@@ -1,0 +1,97 @@
+body{
+    margin: 3px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* #resumeH1{
+    display: inline;
+} */
+
+#mainClass{
+    width: 100px;
+    position: absolute;
+    left: 85%;
+    top: 25px;
+}
+
+form{
+    margin-left: 300px;
+}
+.longInput{
+    width: 600px;
+}
+
+.personal-details, .personal-details label{
+    display: inline-block;   
+    margin-left: 16px;
+}
+
+label{
+    display: block;
+}
+
+.name{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+div.personal img{
+    width: 100px;
+    display: inline-block;
+}
+
+div.personal-details h4{
+    margin: 0px;
+}
+
+h4 {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.logo{
+    position: relative;
+    left: 600px;
+    bottom: 15px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+  
+.heading{
+    background-color: #cfcbcb;
+    width: 1111px;
+    text-align: left;
+}
+
+.subHeading{
+    text-align: left;
+}
+
+.details{
+    background-color: #eeeeee;
+}
+
+.subject{
+    background-color: #cfcbcb;
+    width: 170px;
+    text-align: left;
+    /* border: 1px; */
+}
+
+button{
+    width: 150px;
+    background-color: rgb(68, 218, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}

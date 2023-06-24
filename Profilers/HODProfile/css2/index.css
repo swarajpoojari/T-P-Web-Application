@@ -1,0 +1,26 @@
+.student-profile-img{
+    /* border: 10px solid; */
+    height: 200px;
+    object-fit: cover;
+}
+
+.round{
+    width: 37px;
+    height: 37px;
+    /* overflow: hidden; */
+    position: relative;
+    bottom: 10px;
+    left: 125px;
+    border-radius: 20px;
+}
+
+.round input{
+    position: relative;
+    top: -30px;
+    transform: scale(2);
+    opacity: 0;
+}
+
+/* body{
+    visibility: hidden;
+} */

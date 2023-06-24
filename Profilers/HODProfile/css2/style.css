@@ -1,0 +1,26 @@
+.profileImage {
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 991px) {
+    .profileImage {width: 250px;};
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .profileImage {width: 200px;};
+}
+
+input{
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+}
+
+.checkbox{
+    top: 40px;
+}
+
+footer{
+    display: none;
+}
